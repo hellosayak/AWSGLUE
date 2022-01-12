@@ -1,4 +1,4 @@
-# PySpark-Installation
+# AWS Glue Jobs
 
-This repository houses the installation steps PySpark on Jupyter and on Google Colab
+This repository houses the various Glue jobs written in PySpark
 
