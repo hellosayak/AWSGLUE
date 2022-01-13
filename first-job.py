@@ -10,10 +10,10 @@ from pyspark.context import SparkContext
 import pyspark.sql.functions as f
 
 #Import Glue Modules
-from awsglue.utils import gtResolvedOptions
+from awsglue.utils import getResolvedOptions
 from awsglue.context import GlueContext
 from awsglue.dynamicframe import DynamicFrame
-from awsglue.job import job
+from awsglue.job import Job
 
 #Initialize Context and Sessions
 spark_context = SparkContext.getOrCreate()
